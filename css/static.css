@@ -1,0 +1,148 @@
+body {
+    font-size: 100%;
+    /* font-weight: 200; */
+    background-color: #f5fcf5;
+}
+
+button {
+    margin: 5px;
+}
+
+node img {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+node node {
+    margin-left: 10pt;
+}
+
+node {
+    display: table;
+    cursor: pointer;
+}
+
+nodeKids {
+    display: table;
+    cursor: pointer;
+}
+
+nodeTitle {
+    font-size: 16px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+nodeTitle:hover {
+    background-color: #C0e0ff;
+}
+
+node[selected]>nodeTitle {
+    background-color: aqua;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+td {
+    padding: 5px;
+}
+
+comment {
+    display: grid;
+    grid-template-columns: 45px 1fr;
+}
+
+commentImg {
+    align-self: center;
+    margin-left: 25px;
+}
+
+commentText {
+    background-color: white;
+    cursor: pointer;
+    border: 3px solid transparent;
+    cursor: pointer;
+}
+
+commentTextPlain {
+    background-color: white;
+    margin: 3px;
+}
+
+endLink {
+    margin-top: 2px;
+    display: block;
+}
+
+linkPath:hover {
+    background-color: lightblue;
+}
+
+page {
+    display: block;
+    margin: 8px;
+    padding: 3px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: rgb(219, 243, 221);
+    cursor: pointer;
+}
+
+pageTitle:hover {
+    background-color: lightblue;
+}
+
+.logo {
+    width: 128px;
+    height: 28px;
+}
+
+.mainMenu {
+    height: 30px;
+    padding-left: 5px;
+    background-color: rgb(142, 244, 142);
+}
+
+.menuTitle {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.pageContent {
+    margin: 3px;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.pane {
+    display: block;
+    clear: both;
+    height: calc(100% - 30px);
+    overflow: auto;
+}
+
+.paneSystem {
+    height: 100vh;
+}
+
+.reciprocal {
+    background-color: #e1f1f8;
+}
+
+.shelveLabel {
+    min-width: 120px;
+    display: inline-block;
+}
+
+.treeview {
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
+}

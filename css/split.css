@@ -1,0 +1,14 @@
+.split {
+    display: flex;
+    flex-direction: row;
+}
+
+.gutter {
+    background-color: rgb(142, 244, 142);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.gutter.gutter-horizontal {
+    cursor: col-resize;
+}
